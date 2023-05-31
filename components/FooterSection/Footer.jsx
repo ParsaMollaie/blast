@@ -6,7 +6,7 @@ import { BsTelephoneFill, BsFillEnvelopeAtFill } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="container mx-auto rtl mt-20">
+    <div className="container mx-auto rtl mt-20 pb-10">
       <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-5 text-center">
         {/* first col */}
         <div className="text-white">

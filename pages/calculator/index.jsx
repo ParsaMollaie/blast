@@ -8,7 +8,7 @@ const Calculator = () => {
   return (
     <div>
       <CalculatorHeader />
-      <Reserve />
+      {/* <Reserve /> */}
       <CompetitionSlider />
     </div>
   );

@@ -5,8 +5,8 @@ import React from "react";
 const CalculatorHeader = () => {
   return (
     <div className="rtl">
-      <div className="md:bg-[url('../public/images/calcImg.jpg')] bg-center bg-cover bg-none min-h-[750px] flex justify-center items-center">
-        <div className="px-0 md:px-8 flex flex-col-reverse md:flex-row text-center bg-gradient-to-r from-[#c026d3] to-[#db2777] text-black md:text-[#333] rounded-none md:rounded-[50px] w-full md:w-[750px] h-full md:h-[330px] py-24 md:py-0">
+      <div className="md:bg-[url('../public/images/Header.jpg')] bg-center bg-cover bg-none min-h-[750px] flex justify-center items-center">
+        <div className="px-0 md:px-8 flex flex-col-reverse md:flex-row text-center bg-gradient-to-r from-[#ee9ca7] to-[#ffdde1] text-black md:text-[#333] rounded-none md:rounded-[50px] w-full md:w-[750px] h-full md:h-[330px] py-24 md:py-0">
           <div className="md:mx-0 mx-auto self-end relative">
             <Image
               src={"/images/mobile.png"}

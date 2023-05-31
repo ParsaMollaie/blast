@@ -1,6 +1,8 @@
 import React from "react";
+import researchImg from "../../public/images/research.png";
 import { FcCalculator, FcLike, FcCustomerSupport } from "react-icons/fc";
 import { FaInstagram } from "react-icons/fa";
+import Image from "next/image";
 
 const Section1 = () => {
   return (
@@ -13,8 +15,8 @@ const Section1 = () => {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mt-14">
-          <div className="flex flex-col items-center justify-center gap-4 bg-white w-48 h-48 rounded-2xl  shadow-lg shadow-slate-400/50">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5  gap-12 mt-14">
+          <div className="flex flex-col items-center justify-center gap-4 bg-white w-52 h-60 rounded-2xl  shadow-lg shadow-slate-400/50">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="59.59"
@@ -64,7 +66,7 @@ const Section1 = () => {
             <p className="text-black font-bold">کاهش وزن</p>
           </div>
 
-          <div className="flex flex-col items-center justify-center gap-4 bg-white w-48 h-48 rounded-2xl  shadow-lg shadow-slate-400/50">
+          <div className="flex flex-col items-center justify-center gap-4 bg-white w-52 h-60 rounded-2xl  shadow-lg shadow-slate-400/50">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="60.414"
@@ -112,7 +114,7 @@ const Section1 = () => {
             <p className="text-black font-bold">افزایش وزن</p>
           </div>
 
-          <div className="flex flex-col items-center justify-center gap-4 bg-white w-48 h-48 rounded-2xl  shadow-lg shadow-slate-400/50">
+          <div className="flex flex-col items-center justify-center gap-4 bg-white w-52 h-60 rounded-2xl  shadow-lg shadow-slate-400/50">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="61.366"
@@ -145,7 +147,7 @@ const Section1 = () => {
             <p className="text-black font-bold">عضله سازی</p>
           </div>
 
-          <div className="flex flex-col items-center justify-center gap-4 bg-white w-48 h-48 rounded-2xl  shadow-lg shadow-slate-400/50">
+          <div className="flex flex-col items-center justify-center gap-4 bg-white w-52 h-60 rounded-2xl  shadow-lg shadow-slate-400/50">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="58.718"
@@ -179,6 +181,11 @@ const Section1 = () => {
               </g>
             </svg>
             <p className="text-black font-bold">فیتنس</p>
+          </div>
+
+          <div className="flex flex-col items-center justify-center gap-4 bg-white w-52 h-60 rounded-2xl  shadow-lg shadow-slate-400/50">
+            <Image src={researchImg} width={61.366} height={53.42} />
+            <p className="text-black font-bold">آنالیز</p>
           </div>
         </div>
         {/* Cards */}

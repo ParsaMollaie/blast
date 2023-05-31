@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { HiArrowNarrowLeft } from "react-icons/hi";
-import headerImg from "../../public/images/land.jpg";
+import headerImg from "../../public/images/calcImg.jpg";
 
 const Header = () => {
   return (
@@ -12,16 +12,16 @@ const Header = () => {
       <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/40 z-[2]"></div>
       <div className="flex justify-center items-center  z-[2] absolute top-10 right-0 bottom-0 left-0">
         <div className="flex flex-col gap-6 text-center">
-          <h1 className="text-3xl font-bold text-white text-center">
+          <h1 className="text-4xl font-light text-white text-center tracking-widest">
             استراتژی و با برنامه
           </h1>
-          <h1 className="text-5xl font-bold text-white">
+          <h1 className="text-5xl font-light tracking-wider pt-3 text-white">
             اندام ایده آل همین الان بساز
           </h1>
-          <h2 className="text-2xl font-bold text-white py-5">
+          <h2 className="text-2xl font-light tracking-tight text-slate-300 py-5">
             برنامه تمرین متناسب با خودت
           </h2>
-          <p className="text-white py-4 text-xl">
+          <p className=" py-4 text-xl text-slate-300 font-light">
             اینجا ما بهت کمک میکنیم که به اندام ایده آل خودت برسی
           </p>
           <div className=" flex justify-center gap-4">

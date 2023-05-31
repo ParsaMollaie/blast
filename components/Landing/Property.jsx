@@ -9,7 +9,7 @@ const Property = () => {
           ویژگی های <span className="font-bold text-pink-600">بلست</span>
         </h1>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mx-auto max-w-[1240px] mt-10 p-3 rtl">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 mx-auto lg:max-w-[1240px]  mt-10 p-3 rtl">
         {Data.map((e) => {
           return (
             <div
