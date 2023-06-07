@@ -1,8 +1,9 @@
 import { v4 as uuidv4 } from "uuid";
 import avatar from "@img/person.jpg";
 import Image from "next/image";
-import {GrUserManager} from 'react-icons/gr';
-import { TiSocialYoutube } from "react-icons/ti";
+import {IoIosFootball, IoIosFitness, IoIosNutrition} from "react-icons/io";
+import {TbMathSymbols} from "react-icons/tb";
+import {MdManageAccounts} from "react-icons/md";
 
 export const blastTeam = [
   {
@@ -10,10 +11,10 @@ export const blastTeam = [
     personImage: (
       <Image src={avatar} object-fit="cover" style={{ borderRadius: "100%" }} />
     ),
-    name: "بلست",
+    name: "آرش",
     position: "مدیریت",
     iconPosition: (
-    <TiSocialYoutube style={{color:'#fff'}} size={30} />
+      <MdManageAccounts style={{color:'#fff'}} size={30} />
     ),
   },
   {
@@ -21,47 +22,65 @@ export const blastTeam = [
     personImage: (
       <Image src={avatar} object-fit="cover" style={{ borderRadius: "100%" }} />
     ),
-    name: "بلست",
-    position: "مدیریت",
+    name: "سعید",
+    position: "مشاور",
+    iconPosition: (
+      <MdManageAccounts style={{color:'#fff'}} size={30} />
+    ),
   },
   {
     id: uuidv4(),
     personImage: (
       <Image src={avatar} object-fit="cover" style={{ borderRadius: "100%" }} />
     ),
-    name: "بلست",
-    position: "مدیریت",
+    name: "حسین",
+    position: "مربی آمادگی بدنی",
+    iconPosition: (
+      <IoIosFitness style={{color:'#fff'}} size={30} />
+    ),
   },
   {
     id: uuidv4(),
     personImage: (
       <Image src={avatar} object-fit="cover" style={{ borderRadius: "100%" }} />
     ),
-    name: "بلست",
-    position: "مدیریت",
+    name: "عرفان",
+    position: "مشاور غذایی",
+    iconPosition: (
+      <IoIosNutrition style={{color:'#fff'}} size={30} />
+    ),
   },
   {
     id: uuidv4(),
     personImage: (
       <Image src={avatar} object-fit="cover" style={{ borderRadius: "100%" }} />
     ),
-    name: "بلست",
-    position: "مدیریت",
+    name: "فرید",
+    position: "حسابدار",
+    iconPosition: (
+      <TbMathSymbols style={{color:'#fff'}} size={30} />
+    ),
   },
   {
     id: uuidv4(),
     personImage: (
       <Image src={avatar} object-fit="cover" style={{ borderRadius: "100%" }} />
     ),
-    name: "بلست",
-    position: "مدیریت",
+    name: "پیمان",
+    position: "مربی کراسفیت",
+    iconPosition: (
+      <IoIosFitness style={{color:'#fff'}} size={30} />
+    ),
   },
   {
     id: uuidv4(),
     personImage: (
       <Image src={avatar} object-fit="cover" style={{ borderRadius: "100%" }} />
     ),
-    name: "بلست",
-    position: "مدیریت",
+    name: "امید",
+    position: "مربی فونبال",
+    iconPosition: (
+      <IoIosFootball style={{color:'#fff'}} size={30} />
+    ),
   },
 ];

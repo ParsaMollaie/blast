@@ -17,7 +17,7 @@ const CompetitionSlider = () => {
     // bg-[url('../public/images/darkBlueBackground.png')] bg-center bg-cover
     <div
       className={`${
-        competitionData.length > 10 ? "overflow-y-scroll" : "overflow-hidden"
+        competitionData.length > 10 ? "overflow-y-scroll" : "overflow-visible"
       } bg-gradient-to-r from-[#000428] to-[#004e92]  duration-700 w-full h-screen rtl`}
     >
       <div className="flex justify-center text-white text-4xl font-semibold tracking-wider pt-20">
@@ -29,8 +29,10 @@ const CompetitionSlider = () => {
         {competitionData.map((e) => {
           return (
             <div className="flex flex-col justify-center items-center">
-              <div className="w-64 h-72 relative flex justify-center items-center clip-path-img glassmorphism">
-                <div className="absolute bottom-0 w-full">{e.imageSlider}</div>
+              <div className="w-64 h-72 relative flex justify-center items-center glassmorphism">
+                <div className="absolute w-full h-full hover:-translate-y-12 duration-500">
+                  {e.imageSlider}
+                </div>
                 <div className="absolute font-light tracking-wide text-slate-300 flex justify-center items-center right-[50%] left-[50%] bottom-[5%] hover:text-white">
                   {e.description}
                 </div>

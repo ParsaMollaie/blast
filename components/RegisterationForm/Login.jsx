@@ -27,7 +27,7 @@ const Login = () => {
             } relative h-full w-[50%] hidden md:block bg-[#ff0] duration-500`}
           >
             <Image
-              src={signInImg}
+              src={logInImg}
               className="h-full w-full top-0 left-0 absolute object-cover"
             />
           </div>
@@ -121,7 +121,7 @@ const Login = () => {
             } relative h-full w-[50%] bg-[#ff0] duration-500 md:block hidden `}
           >
             <Image
-              src={logInImg}
+              src={signInImg}
               className="h-full w-full top-0 left-0 absolute object-cover"
             />
           </div>

@@ -5,15 +5,15 @@ const Property = () => {
   return (
     <>
       <div className="flex justify-center mt-20">
-        <h1 className="text-white text-4xl">
+        <h2 className="text-white text-4xl">
           ویژگی های <span className="font-bold text-pink-600">بلست</span>
-        </h1>
+        </h2>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 mx-auto lg:max-w-[1240px]  mt-10 p-3 rtl">
         {Data.map((e) => {
           return (
             <div
-              className="text-black rounded-xl flex flex-row items-center justify-start gap-4 bg-white px-1 py-5  "
+              className="text-black rounded-xl flex flex-row items-center justify-start gap-4 bg-white px-1 py-5"
               key={e.id}
             >
               <div
@@ -22,8 +22,8 @@ const Property = () => {
               >
                 {e.icon}
               </div>
-              <div className="flex flex-col items-center text-right gap-4">
-                <p className="font-bold">{e.name}</p>
+              <div className="flex flex-col items-center gap-4">
+                <p className="font-bold text-lg">{e.name}</p>
                 <p className="text-slate-500">{e.shortDetail}</p>
               </div>
             </div>

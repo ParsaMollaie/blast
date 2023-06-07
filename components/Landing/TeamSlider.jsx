@@ -6,11 +6,11 @@ import { Autoplay } from "swiper";
 
 const TeamSlider = () => {
   return (
-    <div className="bg-[url('https://www.mankan.me/wp-content/uploads/2022/10/pattern-mankan-gray.png')] bg-left-top bg-repeat bg-[#040c18] flex flex-col items-center p-10 mt-14">
+    <div className="bg-[url('https://www.mankan.me/wp-content/uploads/2022/10/pattern-mankan-gray.png')] bg-left-top bg-repeat bg-[#181a1e] flex flex-col items-center p-10 mt-14">
       <div className="flex justify-center items-center text-4xl rtl">
-        <h1 className="text-white">
+        <h2 className="text-white">
           تیم تخصصی <span className="text-pink-600 font-bold">بلست</span>
-        </h1>
+        </h2>
       </div>
       <div className="flex justify-center items-center max-h-screen xl:max-w-[1240px] lg:max-w-[1000px] md:max-w-[700px] sm:max-w-[450px] max-w-[300px]  mx-auto mt-16 rtl">
         <Swiper
